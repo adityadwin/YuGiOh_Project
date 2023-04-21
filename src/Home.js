@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { SimpleGrid, Heading, Box, Select } from "@chakra-ui/react";
 import Cards from "./Cards";
+import Footer from "./Footer";
 
 function Home() {
   const [data, setData] = useState([]);
@@ -61,6 +62,7 @@ function Home() {
               <Cards key={card.id} card={card} />
             ))}
           </SimpleGrid>
+          <Footer />
     </Box>
   );
 } 
