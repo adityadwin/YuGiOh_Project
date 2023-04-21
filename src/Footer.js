@@ -1,12 +1,9 @@
-import { Box, IconButton, Link, Text } from "@chakra-ui/react";
-import { FaHeart } from "react-icons/fa";
+import { Box, Link, Text } from "@chakra-ui/react";
 
 function Footer() {
   return (
     <Box textAlign="center" mt="10" bg="#DD6B20">
-      <Text fontSize='sm'>Made With <Link href="https://www.instagram.com/adityadwn99_/" >
-        <IconButton icon={<FaHeart />} size="xs" /> 
-      </Link> by Aditya DwiN</Text> 
+      <Text fontSize='sm'>Made With <Link href="https://www.instagram.com/adityadwn99_/" >Love </Link> by Aditya DwiN</Text> 
     </Box>
   );
 }
